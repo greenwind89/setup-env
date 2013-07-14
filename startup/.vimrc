@@ -13,10 +13,11 @@
     set rtp+=~/.vim/bundle/vundle/
     call vundle#rc()
     Bundle 'gmarik/vundle'
-    "Add your bundles here
-    Bundle 'Syntastic' "uber awesome syntax and errors highlighter
-    Bundle 'altercation/vim-colors-solarized' "T-H-E colorscheme
-    Bundle 'https://github.com/tpope/vim-fugitive' "So awesome, it should be illegal 
+		Bundle 'taglist'
+		Bundle 'ctags'
+		Bundle 'zencoding'
+    " Bundle 'altercation/vim-colors-solarized' "T-H-E colorscheme
+    " Bundle 'https://github.com/tpope/vim-fugitive' "So awesome, it should be illegal 
     "...All your other bundles...
     if iCanHazVundle == 0
         echo "Installing Bundles, please ignore key map error messages"
@@ -27,3 +28,4 @@
 
 set tabstop=2
 set shiftwidth=2
+set autoindent 
