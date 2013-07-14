@@ -13,9 +13,9 @@
     set rtp+=~/.vim/bundle/vundle/
     call vundle#rc()
     Bundle 'gmarik/vundle'
-		Bundle 'taglist'
-		Bundle 'ctags'
-		Bundle 'zencoding'
+		Bundle 'taglist.vim'
+		Bundle 'ctags.vim'
+		Bundle 'ZenCoding.vim'
     " Bundle 'altercation/vim-colors-solarized' "T-H-E colorscheme
     " Bundle 'https://github.com/tpope/vim-fugitive' "So awesome, it should be illegal 
     "...All your other bundles...
